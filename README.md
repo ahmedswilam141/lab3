@@ -178,7 +178,7 @@ kubectl get pods,svc -n dev
 kubectl get pods,svc -n staging
 ```
 
-![kubectl get pods,svc output][!k8s](./screenshots/get-pods-svc.png)
+![kubectl get pods,svc output](./screenshots/get-pods-svc.png)
 
 Both namespaces show:
 - `pod/backend-pod` → Running
@@ -195,7 +195,7 @@ kubectl port-forward pod/frontend-pod 8082:80 -n dev
 
 Then open: **http://localhost:8082**
 
-![Frontend Application in browser][!k8s](./screenshots/browser.png)
+![Frontend Application in browser](./screenshots/browser.png)
 
 The frontend is accessible and shows buttons to test connectivity to the backend endpoints (`/`, `/health`, `/info`).
 
